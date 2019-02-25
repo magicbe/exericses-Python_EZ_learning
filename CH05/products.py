@@ -43,8 +43,6 @@ def main():
     else:
         print('找不到檔案......')
         products = []
-
-
     products = user_input(products)
     print_products(products)
     write_file('products.csv', products)
